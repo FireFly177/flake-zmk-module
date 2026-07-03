@@ -79,11 +79,11 @@
 
         DEFAULT {
             bindings = <
-&kp ESC         &kp N1           &kp N2           &kp N3        &kp N4             &kp N5       &kp N6         &kp N7              &kp N8        &kp N9            &kp N0               &kp DELETE
-&kp GRAVE       &kp Q            &kp W            &kp E         &kp R              &kp T        &kp Y          &kp U               &kp I         &kp O             &kp P                &kp BACKSLASH
-&kp TAB         &bhm A LEFT_GUI  &bhm S LEFT_ALT  &bhm D LCTRL  &bhm F LEFT_SHIFT  &kp G        &kp H          &bhm J RIGHT_SHIFT  &bhm K RCTRL  &bhm L RIGHT_ALT  &bhm SEMI RIGHT_GUI  &kp APOS
-&kp LEFT_SHIFT  &kp Z            &kp X            &kp C         &kp V              &kp B        &kp N          &kp M               &kp COMMA     &kp DOT           &kp FSLH             &kp RIGHT_SHIFT
-                &kp MINUS        &kp EQUAL        &kp LCTRL     &kp SPACE          &kp ENTER    &kp BACKSPACE  &kp LSHFT           &kp LGUI      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp ESC         &kp N1           &kp N2           &kp N3        &kp N4        &kp N5       &kp N6         &kp N7         &kp N8        &kp N9            &kp N0               &kp DELETE
+&kp GRAVE       &kp Q            &kp W            &kp E         &kp R         &kp T        &kp Y          &kp U          &kp I         &kp O             &kp P                &kp BACKSLASH
+&kp TAB         &bhm LEFT_GUI A  &bhm LEFT_ALT S  &bhm LCTRL D  &bhm LSHFT F  &kp G        &kp H          &bhm RSHIFT J  &bhm RCTRL K  &bhm RIGHT_ALT L  &bhm RIGHT_GUI SEMI  &kp APOS
+&kp LEFT_SHIFT  &kp Z            &kp X            &kp C         &kp V         &kp B        &kp N          &kp M          &kp COMMA     &kp DOT           &kp FSLH             &kp RIGHT_SHIFT
+                &kp MINUS        &kp EQUAL        &kp LCTRL     &lt 1 SPACE   &kp ENTER    &kp BACKSPACE  &lt 1 SPACE    &kp LGUI      &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
