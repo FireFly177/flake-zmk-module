@@ -14,7 +14,6 @@
 #define MOVE_DOWN MOVE_Y(U_MOUSE_MOVE_MAX)
 #define MOVE_LEFT MOVE_X(-U_MOUSE_MOVE_MAX)
 #define MOVE_RIGHT MOVE_X(U_MOUSE_MOVE_MAX)
-
 #define U_MOUSE_SCROLL_MAX 20
 
 #undef SCRL_UP
@@ -122,11 +121,11 @@
 
         LAYER1 {
             bindings = <
-&kp F1  &kp F2  &kp F3           &kp F4    &kp F5            &kp F6          &kp F7          &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
-&none   &none   &mkp LCLK        &kp UP    &mkp RCLK         &msc SCRL_UP    &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none    &none
-&none   &none   &kp LEFT         &kp DOWN  &kp RIGHT         &msc SCRL_DOWN  &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none    &none
-&none   &none   &msc SCRL_LEFT   &none     &msc SCRL_RIGHT   &none           &mkp MCLK       &mkp MB4        &mkp MB5        &none            &none    &none
-        &trans  &trans           &trans    &trans            &none           &none           &trans          &trans          &trans
+&kp F1  &kp F2  &kp F3          &kp F4    &kp F5           &kp F6            &kp F7          &kp F8          &kp F9          &kp F10          &kp F11  &kp F12
+&none   &none   &mkp LCLK       &kp UP    &mkp RCLK        &msc SCRL_UP      &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &none    &none
+&none   &none   &kp LEFT        &kp DOWN  &kp RIGHT        &msc SCRL_DOWN    &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &none    &none
+&none   &none   &msc SCRL_LEFT  &none     &msc SCRL_RIGHT  &none             &mkp MCLK       &mkp MB4        &mkp MB5        &none            &none    &none
+        &trans  &trans          &trans    &trans           &none             &none           &trans          &trans          &trans
             >;
         };
 
@@ -146,7 +145,7 @@
 &kp GRAVE       &kp Q      &kp W      &kp E      &kp R      &kp T        &kp Y          &kp U     &kp I      &kp O             &kp P              &kp BACKSLASH
 &kp TAB         &kp A      &kp S      &kp D      &kp F      &kp G        &kp H          &kp J     &kp K      &kp L             &kp SEMI           &kp APOS
 &kp LEFT_SHIFT  &kp Z      &kp X      &kp C      &kp V      &kp B        &kp N          &kp M     &kp COMMA  &kp DOT           &kp FSLH           &kp RIGHT_SHIFT
-                &kp MINUS  &kp EQUAL  &kp LCTRL  &kp SPACE  &kp ENTER    &kp BACKSPACE  &kp RGUI  &kp RCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+                &kp MINUS  &kp EQUAL  &kp SPACE  &kp SPACE  &kp ENTER    &kp BACKSPACE  &kp RGUI  &kp RCTRL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
         };
 
