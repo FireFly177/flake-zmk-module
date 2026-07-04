@@ -61,11 +61,6 @@
         };
     };
 
-    &lt {
-        flavor = "tap-preferred";
-        tapping-term-ms = <125>;
-    };
-
     behaviors {
         bhm: balanced_homerow_mods {
             compatible = "zmk,behavior-hold-tap";
@@ -132,4 +127,9 @@
             >;
         };
     };
+};
+
+&lt {
+    flavor = "tap-preferred";
+    tapping-term-ms = <125>;
 };
