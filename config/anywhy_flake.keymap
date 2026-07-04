@@ -15,7 +15,7 @@
         leave_gaming {
             bindings = <&to 0>;
             key-positions = <20 19 21 22>;
-            layers = <4>;
+            layers = <2>;
         };
 
         capslock {
